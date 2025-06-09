@@ -1,10 +1,10 @@
 using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
 using CarWorkshop.MVC.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace CarWorkshop.MVC.Controllers;
 
-public class HomeController : Controller
+public class HomeController : Controller 
 {
     private readonly ILogger<HomeController> _logger;
 
