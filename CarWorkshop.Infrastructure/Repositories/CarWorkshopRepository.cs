@@ -17,6 +17,12 @@ namespace CarWorkshop.Infrastructure.Repositories
         {
             _dbContext = dbContext;
         }
+
+        public async Task Commit()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
+
         public async Task Create(Domain.Entities.CarWorkshop carWorkshop)
         {
             _dbContext.CarWorkshops.Add(carWorkshop);
@@ -25,6 +31,10 @@ namespace CarWorkshop.Infrastructure.Repositories
 
         public async Task<List<Domain.Entities.CarWorkshop>> GetAll()
             => await _dbContext.CarWorkshops.ToListAsync();
+
+        public async Task<Domain.Entities.CarWorkshop?> GetByEncodedName(string encodedName)
+            => await _dbContext.CarWorkshops.FirstOrDefaultAsync(cw => cw.EncodedName == encodedName);
+
         public Task<Domain.Entities.CarWorkshop?> GetByName(string value) 
             => _dbContext.CarWorkshops.FirstOrDefaultAsync(cw => cw.Name.ToLower() == value.ToLower());
     }
