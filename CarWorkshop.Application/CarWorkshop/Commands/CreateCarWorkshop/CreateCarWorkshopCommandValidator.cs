@@ -8,11 +8,11 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace CarWorkshop.Application.CarWorkshop
+namespace CarWorkshop.Application.CarWorkshop.Commands.CreateCarWorkshop
 {
-    public class CarWorkshopDtoValidator : AbstractValidator<CarWorkshopDto>
+    public class CreateCarWorkshopCommandValidator : AbstractValidator<CreateCarWorkshopCommand>
     {
-        public CarWorkshopDtoValidator(ICarWorkshopRepository repository)
+        public CreateCarWorkshopCommandValidator(ICarWorkshopRepository repository)
         {
             RuleFor(e => e.Name)
                 .NotEmpty()
@@ -32,8 +32,7 @@ namespace CarWorkshop.Application.CarWorkshop
 
             RuleFor(e => e.PhoneNumber)
                 .MinimumLength(8)
-                .MaximumLength(12)
-                .Matches(new Regex(@"((\(\d{3}\) ?)|(\d{3}-))?\d{3}-\d{4}")).WithMessage("Not valid phone number");
+                .MaximumLength(12);
         }
     }
 }
