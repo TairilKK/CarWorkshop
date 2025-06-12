@@ -65,14 +65,14 @@ namespace CarWorkshop.MVC.Controllers
         }
 
         [HttpGet]
-        [Authorize]
+        [Authorize(Roles = "Owner")]
         public IActionResult Create()
         {
             return View();
         }
 
         [HttpPost]
-        [Authorize]
+        [Authorize(Roles = "Owner")]
         public async Task<IActionResult> Create(CreateCarWorkshopCommand command)
         {
             if (!ModelState.IsValid)
