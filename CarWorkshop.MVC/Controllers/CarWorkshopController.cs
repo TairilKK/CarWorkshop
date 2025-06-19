@@ -4,6 +4,8 @@ using CarWorkshop.Application.CarWorkshop.Commands.CreateCarWorkshop;
 using CarWorkshop.Application.CarWorkshop.Commands.UpdateCarWorkshop;
 using CarWorkshop.Application.CarWorkshop.Queries.GetAllCarWorkshops;
 using CarWorkshop.Application.CarWorkshop.Queries.GetCarWorkshopByEncodedName;
+using CarWorkshop.Application.CarWorkshopService;
+using CarWorkshop.Application.CarWorkshopService.Commands;
 using CarWorkshop.MVC.Extensions;
 using CarWorkshop.MVC.Models;
 using MediatR;
@@ -57,8 +59,6 @@ namespace CarWorkshop.MVC.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-
-
         [HttpGet]
         [Route("CarWorkshop/{encodedName}/Details")]
         public async Task<IActionResult> Details([FromRoute] string encodedName)
@@ -76,7 +76,7 @@ namespace CarWorkshop.MVC.Controllers
 
         [HttpPost]
         [Authorize(Roles = "Owner")]
-        public async Task<IActionResult> Create(CreateCarWorkshopCommand command)
+        public async Task<IActionResult> Create(Application.CarWorkshop.Commands.CreateCarWorkshop.CreateCarWorkshopCommand command)
         {
             if (!ModelState.IsValid)
             {
@@ -88,6 +88,22 @@ namespace CarWorkshop.MVC.Controllers
 
             return RedirectToAction(nameof(Index));
         }
+
+        [HttpPost]        
+        [Authorize(Roles = "Owner")]
+        [Route("CarWorkshop/CarWorkshopService")]
+        public async Task<IActionResult> CreateCarWorkshopService(CreateCarWorkshopServiceCommand command)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+
+            }
+            await _mediator.Send(command);
+
+            return Ok();
+        }
+
     }
 }
 

@@ -31,6 +31,7 @@ namespace CarWorkshop.Infrastructure.Extensions
 
             services.AddScoped<CarWorkshopSeeder>();
             services.AddScoped<ICarWorkshopRepository, CarWorkshopRepository>();
+            services.AddScoped<ICarWorkshopServiceRepository, CarWorkshopServiceRepository>();
         }
         
     }

@@ -34,6 +34,8 @@ namespace CarWorkshop.Application.Mappings
                                             (src.CreatedById == user.Id || user.IsInRole("Moderator"))));
 
             CreateMap<CarWorkshopDto, EditCarWorkshopCommand>();
+            CreateMap<CarWorkshopSerivceDto, CarWokshopService>()
+                .ReverseMap();
         }
     }
 }

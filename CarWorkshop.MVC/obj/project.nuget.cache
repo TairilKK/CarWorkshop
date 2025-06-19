@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uyiQA+3cs+M=",
+  "dgSpecHash": "kPqSzptpYw8=",
   "success": true,
   "projectFilePath": "C:\\code\\Csharp\\CarWorkshop\\CarWorkshop.MVC\\CarWorkshop.MVC.csproj",
   "expectedPackageFiles": [
@@ -63,8 +63,6 @@
     "C:\\Users\\jdobr\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.1.0\\mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\8.0.17\\microsoft.aspnetcore.cryptography.internal.8.0.17.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\8.0.17\\microsoft.aspnetcore.cryptography.keyderivation.8.0.17.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\8.0.17\\microsoft.aspnetcore.identity.entityframeworkcore.8.0.17.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.17\\microsoft.aspnetcore.identity.ui.8.0.17.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.24\\microsoft.aspnetcore.razor.language.6.0.24.nupkg.sha512",
@@ -93,16 +91,7 @@
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\8.0.17\\microsoft.entityframeworkcore.relational.8.0.17.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\8.0.17\\microsoft.entityframeworkcore.sqlserver.8.0.17.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\8.0.17\\microsoft.entityframeworkcore.tools.8.0.17.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.caching.memory\\8.0.1\\microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.1\\microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.2\\microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\8.0.17\\microsoft.extensions.fileproviders.embedded.8.0.17.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.identity.core\\8.0.17\\microsoft.extensions.identity.core.8.0.17.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.identity.stores\\8.0.17\\microsoft.extensions.identity.stores.8.0.17.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.logging\\8.0.1\\microsoft.extensions.logging.8.0.1.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.extensions.options\\8.0.2\\microsoft.extensions.options.8.0.2.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.identity.client\\4.61.3\\microsoft.identity.client.4.61.3.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.identity.client.extensions.msal\\4.61.3\\microsoft.identity.client.extensions.msal.4.61.3.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.35.0\\microsoft.identitymodel.abstractions.6.35.0.nupkg.sha512",
@@ -142,7 +131,6 @@
     "C:\\Users\\jdobr\\.nuget\\packages\\system.composition.typedparts\\7.0.0\\system.composition.typedparts.7.0.0.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\system.configuration.configurationmanager\\7.0.0\\system.configuration.configurationmanager.7.0.0.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\system.formats.asn1\\8.0.2\\system.formats.asn1.8.0.2.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.35.0\\system.identitymodel.tokens.jwt.6.35.0.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\system.reflection.metadataloadcontext\\7.0.0\\system.reflection.metadataloadcontext.7.0.0.nupkg.sha512",
@@ -150,10 +138,10 @@
     "C:\\Users\\jdobr\\.nuget\\packages\\system.security.cryptography.protecteddata\\7.0.0\\system.security.cryptography.protecteddata.7.0.0.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\system.security.permissions\\7.0.0\\system.security.permissions.7.0.0.nupkg.sha512",
     "C:\\Users\\jdobr\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.12\\microsoft.windowsdesktop.app.ref.8.0.12.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.12\\microsoft.netcore.app.ref.8.0.12.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.12\\microsoft.aspnetcore.app.ref.8.0.12.nupkg.sha512",
-    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.12\\microsoft.netcore.app.host.win-x64.8.0.12.nupkg.sha512"
+    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.16\\microsoft.windowsdesktop.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.16\\microsoft.netcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.16\\microsoft.aspnetcore.app.ref.8.0.16.nupkg.sha512",
+    "C:\\Users\\jdobr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.16\\microsoft.netcore.app.host.win-x64.8.0.16.nupkg.sha512"
   ],
   "logs": []
 }
