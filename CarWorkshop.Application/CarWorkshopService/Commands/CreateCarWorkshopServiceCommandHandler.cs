@@ -13,15 +13,13 @@ namespace CarWorkshop.Application.CarWorkshopService.Commands
     public class CreateCarWorkshopServiceCommandHandler : IRequestHandler<CreateCarWorkshopServiceCommand>
     {
         private readonly ICarWorkshopRepository _carWorkshopRepository;
-        private readonly IMapper _mapper;
         private readonly IUserContext _userContext;
         private readonly ICarWorkshopServiceRepository _carWorkshopServiceRepository;
 
-        public CreateCarWorkshopServiceCommandHandler(ICarWorkshopRepository carWorkshopRepository, IMapper mapper, IUserContext userContext,
+        public CreateCarWorkshopServiceCommandHandler(ICarWorkshopRepository carWorkshopRepository, IUserContext userContext,
             ICarWorkshopServiceRepository carWorkshopServiceRepository)
         {
             _carWorkshopRepository = carWorkshopRepository;
-            _mapper = mapper;
             _userContext = userContext;
             _carWorkshopServiceRepository = carWorkshopServiceRepository;
         }
